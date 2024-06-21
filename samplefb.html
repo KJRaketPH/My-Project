@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .top-banner {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background-color: #1877f2;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            width: 980px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .left {
+            width: 50%;
+        }
+        .left h1 {
+            color: #1877f2;
+            font-size: 56px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .left p {
+            font-size: 24px;
+        }
+        .right {
+            width: 50%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input {
+            margin: 10px 0;
+            padding: 14px;
+            font-size: 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+        }
+        .login-form button {
+            padding: 14px;
+            font-size: 20px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #165cdb;
+        }
+        .login-form a {
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .login-form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-banner">
+        EXAMPLE ONLY | KEVIN JUDE RAKET.PH | THANK YOU FOR CONSIDERING MY SERVICE
+    </div>
+    <div class="container">
+        <div class="left">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div class="right">
+            <form class="login-form">
+                <input type="text" placeholder="Email or phone number">
+                <input type="password" placeholder="Password">
+                <button type="submit">Log In</button>
+                <a href="#">Forgotten password?</a>
+                <hr>
+                <button type="button" style="background-color: #42b72a;">Create New Account</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
